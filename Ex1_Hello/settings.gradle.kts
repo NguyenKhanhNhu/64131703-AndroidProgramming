@@ -19,8 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BTVDHELLO"
+rootProject.name = "Ex1_Hello"
 include(":app")
-include(":app")
-include(":app")
- 
