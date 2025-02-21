@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex1_ConstraintLayout</string>
+    <string name="upload">Upload</string>
+    <string name="camera">Camera</string>
+    <string name="camera_value">Le</string>
+
+
+
+</resources>
