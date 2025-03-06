@@ -7,17 +7,19 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    tools:context=".MH2Activity">
+    tools:context=".MH3Activity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ĐÂY LÀ MÀN HÌNH 2"
+        android:text="ĐÂY LÀ MÀN HÌNH 3"
         android:textColor="#5F5C0261"
         android:textSize="30dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_delete"/>
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
 </LinearLayout>
