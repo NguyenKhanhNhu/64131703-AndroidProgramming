@@ -1,8 +1,3 @@
-ActivityAsListner
-
-![image](https://github.com/user-attachments/assets/6ca4f5be-8184-48a2-9ae1-3512c31346b0)
-![image](https://github.com/user-attachments/assets/17a9afa9-df60-4c6f-85a7-817dbdb86f6e)
-
 Ex5_AddSubMulDiv_Anynomous
 
 ![image](https://github.com/user-attachments/assets/5225b5b6-2fbb-48db-b037-a9ef1d803db3)
