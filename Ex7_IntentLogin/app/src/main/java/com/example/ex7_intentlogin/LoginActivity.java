@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
                 String mk = edPass.getText().toString();
 
                 //Kiem tra mk
-                if( tenDangNhap.equals("duongngoclenh") && mk.equals("123") )//mk dung
+                if( tenDangNhap.equals("nguyenkhanhnhu") && mk.equals("123") )//mk dung
                 {
                     //chuyen sang man hinh home
                     Intent iQuiz = new Intent(LoginActivity.this, HomeActivity.class);
