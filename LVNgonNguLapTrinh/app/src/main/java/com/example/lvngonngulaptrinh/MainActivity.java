@@ -1,6 +1,8 @@
 package com.example.lvngonngulaptrinh;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
         dsNgonNguLT.add("Java");
 
         ArrayAdapter<String> adapterNNLT;
-        adapterNNLT = new ArrayAdapter<String>
+        adapterNNLT = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dsNgonNguLT);
+        listViewNNLT.setAdapter(adapterNNLT);
+
+        listViewNNLT.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String giaTriDuocChon = dsNgonNguLT.get(position);
+            }
+        });
     }
 }
