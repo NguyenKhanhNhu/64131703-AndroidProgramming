@@ -1,4 +1,4 @@
-package com.example.moderndashboard;
+package com.example.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
