@@ -23,6 +23,11 @@ Ex6_
 
 Ex7_
 
+![image](https://github.com/user-attachments/assets/ae7b0491-3ec7-4db2-85b5-915ce271b979)
+![image](https://github.com/user-attachments/assets/50a0d201-1017-461f-8cea-961ce16fc0b4)
+![image](https://github.com/user-attachments/assets/ca577c69-d233-4442-93d2-3afecc13e0b9)
+
+
 
 
 
