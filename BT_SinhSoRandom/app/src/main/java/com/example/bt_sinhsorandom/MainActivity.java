@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         btn9 = findViewById(R.id.btn9);
     }
     void SinhSoRandom(){
-        int a = (int) (Math.random() * 5);
-        int b = (int) (Math.random() * 5);
+        int a = (int) (Math.random() * 5) + 1;
+        int b = (int) (Math.random() * 5) + 1;
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
     }
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TimDieuKhien();
         SinhSoRandom();
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
