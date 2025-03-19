@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -106,7 +107,17 @@ public class MainActivity extends AppCompatActivity {
         kiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                int num1 = Integer.parseInt(soA.getText().toString());
+                int num2 = Integer.parseInt(soB.getText().toString());
+                int kiemtrakq = Integer.parseInt(ketqua.getText().toString());
+                int kqdung = num1 + num2;
+                if(kqdung == kiemtrakq){
+                    Toast.makeText(MainActivity.this,"Ket qua dung!",Toast.LENGTH_SHORT).show();
+                }else
+                {
+                    Toast.makeText(MainActivity.this,"Ket qua sai!",Toast.LENGTH_SHORT).show();
+                }
+                SinhSoRandom();
             }
         });
 
