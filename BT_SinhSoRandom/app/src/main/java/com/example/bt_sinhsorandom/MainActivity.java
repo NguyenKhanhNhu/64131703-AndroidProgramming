@@ -103,6 +103,12 @@ public class MainActivity extends AppCompatActivity {
                 ketqua.setText("9");
             }
         });
+        kiemtra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
 
     }
 }
