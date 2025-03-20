@@ -34,7 +34,11 @@ Login Page
 BT_SinhSoRandom
 ![image](https://github.com/user-attachments/assets/27628588-2796-4712-ab86-eb02d6138313)
 
-BT_SinhSoRandom_PT
+BT_KidsLearning
+![image](https://github.com/user-attachments/assets/a6610c13-cf78-4b91-97f0-a9c93e29baec)
+![image](https://github.com/user-attachments/assets/575eba62-a99e-4606-a4ce-609263a613d3)
+
+
 
 
 
