@@ -7,12 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MH2Activity">
 
-
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/saira"
+        android:text="Hi, Good Morning"
+        android:textSize="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <View
         android:layout_width="19dp"
         android:layout_height="19dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="313dp"
+        android:layout_marginTop="110dp"
         android:background="@drawable/icontk"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,8 +30,8 @@
     <View
         android:layout_width="330dp"
         android:layout_height="53dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="91dp"
         android:background="@drawable/search"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -200,6 +210,90 @@
         android:fontFamily="@font/saira_bold"
         android:text="Painting"
         android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="356dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="569dp"
+        android:background="@drawable/cross"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="593dp"
+        android:background="@drawable/cay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="169dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="676dp"
+        android:background="@drawable/essay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/but"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="169dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="679dp"
+        android:background="@drawable/rhymes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="706dp"
+        android:background="@drawable/nhac"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="281dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/saira_bold"
+        android:text="CROSSWORD PUZZLES"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="78dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="704dp"
+        android:fontFamily="@font/saira_bold"
+        android:text="Essay"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="704dp"
+        android:fontFamily="@font/saira_bold"
+        android:text="Rhymes"
+        android:textSize="21dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
