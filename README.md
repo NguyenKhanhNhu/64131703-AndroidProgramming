@@ -35,8 +35,8 @@ BT_SinhSoRandom
 ![image](https://github.com/user-attachments/assets/27628588-2796-4712-ab86-eb02d6138313)
 
 BT_KidsLearning
-![image](https://github.com/user-attachments/assets/a6610c13-cf78-4b91-97f0-a9c93e29baec)
-![image](https://github.com/user-attachments/assets/575eba62-a99e-4606-a4ce-609263a613d3)
+![image](https://github.com/user-attachments/assets/8a864042-8ca0-44a9-97d6-efcd1d435f96)
+![image](https://github.com/user-attachments/assets/49af9a28-2f4a-4abb-a3bb-7798e917ca92)
 
 
 
