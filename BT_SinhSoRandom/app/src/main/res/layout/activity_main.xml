@@ -111,6 +111,7 @@
         android:layout_marginTop="100dp"
         android:ems="10"
         android:hint="Số A"
+        android:gravity="center"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -122,6 +123,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="100dp"
         android:ems="10"
+        android:gravity="center"
         android:hint="Số B"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/editTextText3"
@@ -158,6 +160,7 @@
         android:layout_marginTop="100dp"
         android:ems="10"
         android:hint="Kết quả"
+        android:gravity="center"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
