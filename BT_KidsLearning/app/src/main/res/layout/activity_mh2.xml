@@ -27,6 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+        android:id="@+id/view4"
         android:layout_width="169dp"
         android:layout_height="169dp"
         android:layout_marginStart="25dp"
@@ -59,6 +60,66 @@
         android:layout_marginStart="320dp"
         android:layout_marginTop="260dp"
         android:background="@drawable/vongtron"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="45dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="472dp"
+        android:background="@drawable/cove"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/nenmusic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/nenpaint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/music"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="192dp"
+        android:text="Maths"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="192dp"
+        android:text="SCIENCE"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
