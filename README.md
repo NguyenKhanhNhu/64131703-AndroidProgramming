@@ -31,8 +31,10 @@ Login Page
 ![image](https://github.com/user-attachments/assets/dab72725-9dfb-41df-966c-2011e97bc5d0)
 ![image](https://github.com/user-attachments/assets/14f2a1ee-6cf1-415a-9121-ef2cca15925e)
 
+BT_SinhSoRandom
+![image](https://github.com/user-attachments/assets/27628588-2796-4712-ab86-eb02d6138313)
 
-
+BT_SinhSoRandom_PT
 
 
 
