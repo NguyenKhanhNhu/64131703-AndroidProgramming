@@ -26,6 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <View
         android:id="@+id/view4"
         android:layout_width="169dp"
@@ -81,12 +82,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="452dp"
+        android:fontFamily="@font/saira_medium"
+        android:text="30 topics"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <View
         android:layout_width="169dp"
         android:layout_height="169dp"
         android:layout_marginStart="224dp"
         android:layout_marginTop="380dp"
         android:background="@drawable/nenpaint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="452dp"
+        android:fontFamily="@font/saira_medium"
+        android:text="20 topics"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -108,6 +135,32 @@
         android:fontFamily="@font/saira_bold"
         android:text="Maths"
         android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/saira_medium"
+        android:text="40 topics"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/saira_medium"
+        android:text="45 topics"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
