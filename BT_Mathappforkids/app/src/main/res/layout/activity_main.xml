@@ -28,7 +28,7 @@
         android:layout_width="410dp"
         android:layout_height="110dp"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="205dp"
+        android:layout_marginTop="190dp"
         android:background="@drawable/mh1_chu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,14 +40,38 @@
         android:background="@drawable/eng"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <View
-        android:layout_width="140dp"
-        android:layout_height="160dp"
+        android:layout_width="165dp"
+        android:layout_height="171dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="330dp"
         android:background="@drawable/eng"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <View
+        android:layout_width="165dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/mh1_chu2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="165dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/mh1_chu3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="165dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/mh1_chu4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
