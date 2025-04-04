@@ -11,11 +11,13 @@
         android:id="@+id/btncn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
         android:layout_marginEnd="85dp"
         android:layout_marginBottom="62dp"
         android:text="Chức năng 3"
         app:layout_constraintBottom_toTopOf="@+id/btnabout"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1" />
 
     <Button
         android:id="@+id/btnabout"
@@ -32,10 +34,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="53dp"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="64dp"
         android:text="Chức năng 2"
         app:layout_constraintBottom_toTopOf="@+id/btncn4"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1" />
 
     <Button
         android:id="@+id/btncn4"
@@ -47,29 +51,42 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="0dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/anh1"
+        android:background="#D0E8FF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="182dp"
+            android:layout_height="179dp"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="112dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/anh1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="39dp"
-        android:layout_marginEnd="181dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="26dp"
         android:gravity="center"
         android:text="50 NĂM NGÀY GIẢI PHÓNG MIỀN NAM THỐNG NHẤT ĐẤT NƯỚC"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
