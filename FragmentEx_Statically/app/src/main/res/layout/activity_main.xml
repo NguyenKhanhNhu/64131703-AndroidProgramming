@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <fragment
+        android:id="@+id/frgChanTrang"
+        android:name="vn.edu.tinhoc123.fragmentex_statically.FooterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
