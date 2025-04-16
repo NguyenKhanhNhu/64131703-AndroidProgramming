@@ -52,6 +52,9 @@ Ex_RecyclerView
 
 ![image](https://github.com/user-attachments/assets/d2c4f0b7-4b35-46f9-8f4c-9e99ea9d96dc)
 
+FragmentEx_Statically
+
+![image](https://github.com/user-attachments/assets/ca992c7a-d659-4c5a-83f9-fbb5bf814e66)
 
 
 
