@@ -59,3 +59,12 @@ FragmentEx_Statically
 FragmentExAddDynamic
 
 ![image](https://github.com/user-attachments/assets/c7e1c310-8785-40ab-8dfb-79db27b6e786)
+
+FragmentEx_Replace
+
+![image](https://github.com/user-attachments/assets/c3b575c4-684c-438c-9bf9-f1abb2a69123)
+![image](https://github.com/user-attachments/assets/4c07b019-0835-46d1-8dfc-8b94a3e47a90)
+![image](https://github.com/user-attachments/assets/72372b68-25bd-43b8-8fb7-a15a73eb9e2e)
+![image](https://github.com/user-attachments/assets/e73b395f-00bc-4cfd-b462-632e2882d470)
+
+
