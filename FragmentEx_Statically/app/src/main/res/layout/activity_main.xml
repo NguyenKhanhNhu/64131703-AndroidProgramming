@@ -8,6 +8,14 @@
     tools:context=".MainActivity">
 
     <fragment
+        android:name="vn.edu.tinhoc123.fragmentex_statically.ContentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/frgChanTrang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <fragment
         android:id="@+id/frgChanTrang"
         android:name="vn.edu.tinhoc123.fragmentex_statically.FooterFragment"
         android:layout_width="match_parent"
