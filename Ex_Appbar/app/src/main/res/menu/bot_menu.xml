@@ -3,6 +3,7 @@
 
     <item
         android:id="@+id/mnu_home"
+        android:icon="@drawable/baseline_add_home_24"
         android:title="HOME" />
     <item android:title="SEARCH" />
     <item android:title="PROFILE" />
