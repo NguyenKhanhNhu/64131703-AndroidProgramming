@@ -1,3 +1,11 @@
+## **🧩 Link GGdoc dự án cuối kỳ**
+
+<p align="center">
+  https://docs.google.com/document/d/1V2G5U-jl36aKt0eM_LpzwTqxIVuPt5WmtlwHmyZt42o/edit?tab=t.0
+</p>
+
+---
+
 ## **🔢 Ex5_AddSubMulDiv_Anonymous**
 
 <p align="center">
