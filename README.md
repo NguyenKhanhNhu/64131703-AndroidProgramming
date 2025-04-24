@@ -127,7 +127,7 @@
 
 ---
 
-## ** Ex-Appbar**
+## ** Ex-BottomNavigation**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/41d3c526-2481-4b3e-94d8-2ed5190f10da" width="500"/>
