@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment" >
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="393dp"
+        android:layout_height="315dp"
+        android:background="@drawable/login_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="247dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loginView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#D0874B"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <EditText
+        android:id="@+id/edit_login_username"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vien_login_username"
+        android:drawablePadding="15dp"
+        android:hint=" nhập tên"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="13dp"
+        android:selectAllOnFocus="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginView" />
+
+    <EditText
+        android:id="@+id/edit_login_password"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/vien_login_username"
+        android:drawablePadding="15dp"
+        android:hint=" nhập mật khẩu"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="13dp"
+        android:selectAllOnFocus="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_login_username" />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="319dp"
+        android:layout_height="59dp"
+        android:layout_above="@+id/btn_register"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FCE2CE"
+        android:enabled="true"
+        android:fontFamily="@font/rubik_semibold"
+        android:text="Đăng nhập"
+        android:textColor="#D0874B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_login_password" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="319dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FCE2CE"
+        android:enabled="true"
+        android:fontFamily="@font/rubik_semibold"
+        android:text="Đăng ký"
+        android:textColor="#D0874B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_log" />
+</androidx.constraintlayout.widget.ConstraintLayout>
