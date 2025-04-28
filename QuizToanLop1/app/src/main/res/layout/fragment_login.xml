@@ -47,7 +47,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/vien_login_username"
         android:drawablePadding="15dp"
-        android:hint=" nhập tên"
+        android:hint=" nhập tên tài khoản"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:padding="13dp"
