@@ -204,7 +204,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 "'8 - ? = 4','3','4','5','2','B','Phép trừ phạm vi 10')");
 
         db.execSQL("INSERT INTO CauHoi (noiDung, dapAnA, dapAnB, dapAnC, dapAnD, dapAnDung, chuDe) VALUES (" +
-                "'6 - ? = 2','3','4','5','2','B','Phép trừ phạm vi 10')");
+                "'6 - ? = 2','3','4','5','8','B','Phép trừ phạm vi 10')");
 
 // Dạng toán có lời
         db.execSQL("INSERT INTO CauHoi (noiDung, dapAnA, dapAnB, dapAnC, dapAnD, dapAnDung, chuDe) VALUES (" +
