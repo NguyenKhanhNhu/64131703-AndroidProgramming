@@ -1,14 +1,11 @@
 package vn.edu.tinhoc123.quizz_da;
 
-import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.util.List;
 
@@ -20,8 +17,34 @@ public class ResultFragment extends Fragment {
         // Ánh xạ view
         TextView tvDiem = v.findViewById(R.id.tvDiem);
         TextView tvScore = v.findViewById(R.id.tvScore);
-        LinearLayout llDetails = v.findViewById(R.id.llDetails);
         ImageButton btnHome = v.findViewById(R.id.btnHome);
+
+        // Ánh xạ 10 cặp TextView
+        TextView[] tvQuestions = new TextView[]{
+                v.findViewById(R.id.tvQuestion1),
+                v.findViewById(R.id.tvQuestion2),
+                v.findViewById(R.id.tvQuestion3),
+                v.findViewById(R.id.tvQuestion4),
+                v.findViewById(R.id.tvQuestion5),
+                v.findViewById(R.id.tvQuestion6),
+                v.findViewById(R.id.tvQuestion7),
+                v.findViewById(R.id.tvQuestion8),
+                v.findViewById(R.id.tvQuestion9),
+                v.findViewById(R.id.tvQuestion10)
+        };
+
+        TextView[] tvCorrects = new TextView[]{
+                v.findViewById(R.id.tvCorrect1),
+                v.findViewById(R.id.tvCorrect2),
+                v.findViewById(R.id.tvCorrect3),
+                v.findViewById(R.id.tvCorrect4),
+                v.findViewById(R.id.tvCorrect5),
+                v.findViewById(R.id.tvCorrect6),
+                v.findViewById(R.id.tvCorrect7),
+                v.findViewById(R.id.tvCorrect8),
+                v.findViewById(R.id.tvCorrect9),
+                v.findViewById(R.id.tvCorrect10)
+        };
 
         // Nhận dữ liệu từ bundle
         Bundle bundle = getArguments();
@@ -29,59 +52,23 @@ public class ResultFragment extends Fragment {
         int total = bundle.getInt("total");
         List<String> details = bundle.getStringArrayList("details");
 
-        // Hiển thị điểm
         tvDiem.setText(String.valueOf(correct));
-        tvScore.setText("Bạn đúng " + correct + "/" + total);
+        tvScore.setText("Bé đúng " + correct + "/" + total);
 
         // Hiển thị chi tiết đáp án
         if (details != null && !details.isEmpty()) {
-            for (String detail : details) {
+            for (int i = 0; i < Math.min(details.size(), 10); i++) {
+                String detail = details.get(i);
                 // Tách nội dung detail thành các phần
                 String[] parts = detail.split("\n");
-                String questionAndUserAns = parts[0] + "\n" + parts[2]; // Câu hỏi và đáp án người dùng
-                String correctAns = parts[1]; // Đáp án đúng
+                String questionAndUserAns = parts[0] + "\n" + parts[2]; //CHoi và đ.án của ng dùng
+                String correctAns = parts[1]; // Đ.án đúng
 
-                // TextView cho câu hỏi và đáp án người dùng (khung trắng)
-                TextView tvQuestionUser = new TextView(getContext());
-                tvQuestionUser.setText(questionAndUserAns);
-                tvQuestionUser.setTextSize(18);
-                tvQuestionUser.setPadding(24, 16, 24, 16);
-                tvQuestionUser.setTextColor(Color.parseColor("#4F3054"));
-
-                GradientDrawable bgWhite = new GradientDrawable();
-                bgWhite.setColor(Color.parseColor("#FFFFFF")); // Nền trắng
-                bgWhite.setCornerRadius(24); // Bo góc 24dp
-                tvQuestionUser.setBackground(bgWhite);
-
-                LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                );
-                params.setMargins(0, 16, 0, 8); // Margin trên và dưới
-                tvQuestionUser.setLayoutParams(params);
-
-                llDetails.addView(tvQuestionUser);
-
-                // TextView cho đáp án đúng (khung hồng)
-                TextView tvCorrect = new TextView(getContext());
-                tvCorrect.setText(correctAns);
-                tvCorrect.setTextSize(18);
-                tvCorrect.setPadding(24, 16, 24, 16);
-                tvCorrect.setTextColor(Color.parseColor("#4F3054"));
-
-                GradientDrawable bgPink = new GradientDrawable();
-                bgPink.setColor(Color.parseColor("#FCE2CE")); // Nền hồng nhạt
-                bgPink.setCornerRadius(24); // Bo góc 24dp
-                tvCorrect.setBackground(bgPink);
-
-                LinearLayout.LayoutParams paramsCorrect = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                );
-                paramsCorrect.setMargins(0, 8, 0, 8); // Margin trên và dưới
-                tvCorrect.setLayoutParams(paramsCorrect);
-
-                llDetails.addView(tvCorrect);
+                // Gán nội dung và hiển thị TextView
+                tvQuestions[i].setText(questionAndUserAns);
+                tvQuestions[i].setVisibility(View.VISIBLE);
+                tvCorrects[i].setText(correctAns);
+                tvCorrects[i].setVisibility(View.VISIBLE);
             }
         }
 
