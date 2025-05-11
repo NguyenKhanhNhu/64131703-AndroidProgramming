@@ -27,6 +27,6 @@
         android:fontFamily="@font/titan_one"
         android:padding="12dp"
         android:text="VÀO"
-        android:textColor="@android:color/white"
+        android:textColor="#FBEBCF"
         android:textSize="18sp" />
 </LinearLayout>

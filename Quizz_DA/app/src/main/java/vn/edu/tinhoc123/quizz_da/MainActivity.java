@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Lần đầu, load HomeFragment
+        // Lần đầu, load IntroFragment
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.fragment_container, new HomeFragment())
+                    .add(R.id.fragment_container, new IntroFragment())
                     .commit();
         }
     }
