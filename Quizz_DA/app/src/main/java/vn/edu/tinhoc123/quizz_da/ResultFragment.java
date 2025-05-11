@@ -31,7 +31,7 @@ public class ResultFragment extends Fragment {
 
         // Hiển thị điểm
         tvDiem.setText(String.valueOf(correct));
-        tvScore.setText("Bạn đúng " + correct + " / " + total + " câu");
+        tvScore.setText("Bạn đúng " + correct + "/" + total);
 
         // Hiển thị chi tiết đáp án
         if (details != null && !details.isEmpty()) {

@@ -138,7 +138,6 @@ public class QuizFragment extends Fragment {
             String ua = userAns[i] == null ? "" : userAns[i];
             String trueTxt = getTextByLetter(q, q.dapAnDung);
             String yourTxt = ua.isEmpty() ? "(chưa chọn)" : getTextByLetter(q, ua);
-            // Thêm thông tin cho cả câu đúng và sai
             details.add(
                     "Câu " + (i + 1) + ": " + q.noiDung +
                             "\n→ Đúng: " + q.dapAnDung + ". " + trueTxt +
@@ -159,7 +158,6 @@ public class QuizFragment extends Fragment {
         getParentFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, rf)
-                .addToBackStack(null)
                 .commit();
     }
 
